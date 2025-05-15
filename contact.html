@@ -68,22 +68,39 @@
                 <address>Chemin des Refuges, 74200 Forêt-sur-Lac</address>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2596.8433507475256!2d6.510074855472051!3d46.34081037337439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sChemin%20des%20Refuges%2C%2074200%20For%C3%AAt-sur-Lac!5e0!3m2!1sfr!2sfr!4v1747125017902!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="item-contact form-contact">
-                <h3>Formulaire de contact</h3>
-                <form>
-                    <div class="form-infos">
-                        <label>Nom</label>
-                        <input type="text" placeholder="Nom">
-                        <label>Prénom</label>
-                        <input type="text" placeholder="Prénom">
-                        <label>Téléphone</label>
-                        <input type="tel" placeholder="Téléphone">
-                        <label>E-mail</label>
-                        <input type="email" placeholder="E-mail">
-                    </div>
-                    <textarea placeholder="Votre demande.." cols="150" rows="10"></textarea>
-                    <input type="submit" value="Envoyer">
-                </form>
+            <div class="form-contact">
+                <div class="form-contact-container-img">
+                    <img src="images/vertical-shot-cabin-forest-surrounded-by-lot-green-trees-norway.jpg" alt="photo de forêt" title="photo de forêt">
+                </div>
+                <div class="container-form">
+                    <h3>Contactez nous!</h3>
+                    <form>
+                        
+                        <div class="form-infos-item">
+                            <label>Nom</label>
+                            <input type="text" placeholder="Nom" required>
+                        </div>
+                        <div class="form-infos-item">
+                            <label>Prénom</label>
+                            <input type="text" placeholder="Prénom" required>
+                        </div>
+                        <div class="form-infos-item">
+                            <label>E-mail</label>
+                            <input type="email" placeholder="E-mail" required>
+                        </div>
+                        
+                        <div class="form-infos-message">
+                            <label>Votre demande</label>
+                            <textarea placeholder="Votre demande.." cols="50" rows="8" required></textarea>
+                        </div>
+
+                        <div class="form-infos-checkbox">
+                            <input type="checkbox" required> Cocher pour accepter le traitement de vos données
+                        </div>
+
+                        <input class="btn-submit" type="submit" value="Envoyer">
+                    </form>
+                </div>
             </div>
 
             
@@ -93,6 +110,7 @@
 
 
     <footer>
+        <div class="footer-top">
             <div class="footer-item">
                 <a href="" title="Lien vers la page nos engagements"><h3>Nos engagements</h3></a>
                     <p>La nature est au coeur de nos valeurs</p>
@@ -103,6 +121,11 @@
                     <address>123 rue du tir, 62400 Béthune</address>
                     <tel>0321016534</tel>
             </div>
+        </div>
+
+        <hr>
+
+        <p class="footer-mentions">Copyright ©️ 2025 l'Atelier du pin / <a href="">Confidentalité</a> / <a href="">Conditions générales</a></p>
         
     </footer>
     
