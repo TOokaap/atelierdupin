@@ -318,11 +318,12 @@ form {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    width: 100%;
 }
 
 .form-infos-item input {
     height: 3vh;
-    width: 500px;
+    width: 100%;
 }
 
 .btn-submit {
@@ -517,3 +518,152 @@ form {
 }
 
 }
+
+@media only screen and (max-width: 430px) {
+
+/* HEADER FOOTER  */
+
+h1 {
+    font-size: 1.8rem;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 20vw);
+    grid-template-rows: 50px 50px;
+    padding-top: 2rem;
+}
+
+nav a {
+    font-size: 0.9rem;
+}
+
+footer {
+    padding: 1rem;
+}
+
+.footer-top {
+    display: flex;
+    gap: 2rem;
+}
+
+/* SECTION A PROPOS  */
+
+
+
+.section-about p{
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.section-about span {
+    font-size: 1.5rem;
+}
+
+/* SECTION SERVICES  */
+
+.container-top {
+    margin: 0.7rem;
+}
+
+.container-top p {
+    font-size: 1.5rem;
+}
+
+.item p {
+    font-size: 1rem;
+}
+
+/* SECTION NOS ENGAGEMENTS  */
+
+.section-engagements {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-engagements p {
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+.engagements-picture {
+    display: none;
+}
+
+.paragraphe-final {
+    color: black;
+}
+
+/* SECTION CONTACT  */
+
+.section-contact-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.item-contact h3 {
+    font-size: 0.8rem;
+}
+
+.item-contact {
+    text-align: center;
+    width: 90%;
+    margin: 0;
+}
+
+.map-contact {
+    width: 90%;
+    height: 60vh;
+}
+
+.form-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-contact-container-img {
+    width: 100%;
+    height: 200px;
+}
+
+.form-contact-container-img img {
+    border-radius: 10px 10px 0 0;
+}
+
+.container-form {
+    width: 100%;
+}
+
+form textarea {
+    width: 80%;
+}
+
+.form-infos-item, .form-infos-message, .form-infos-checkbox {
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
